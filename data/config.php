@@ -328,8 +328,8 @@ return [
     0 => 'youtube.com',
     1 => 'google.com'
   ],
-  'cacheTimestamp' => 1761156380,
-  'microtime' => 1761156380.17807,
+  'cacheTimestamp' => 1761170922,
+  'microtime' => 1761170922.217008,
   'siteUrl' => 'http://localhost:8888/espo',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1761137948

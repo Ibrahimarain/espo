@@ -3,5 +3,9 @@ return [
   'Crm' => [
     'order' => 10,
     'jsTranspiled' => true
+  ],
+  'Autocrm' => [
+    'order' => 10,
+    'jsTranspiled' => false
   ]
 ];

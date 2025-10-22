@@ -8048,10 +8048,10 @@ return (object) [
     'Lead' => (object) [
       'controller' => 'crm:controllers/lead',
       'views' => (object) [
-        'detail' => 'crm:views/lead/detail'
+        'detail' => 'autocrm:views/lead/record/detail'
       ],
       'recordViews' => (object) [
-        'detail' => 'crm:views/lead/record/detail'
+        'detail' => 'autocrm:views/lead/record/detail'
       ],
       'sidePanels' => (object) [
         'detail' => [
@@ -8224,7 +8224,16 @@ return (object) [
         ]
       ],
       'color' => '#d6a2c9',
-      'iconClass' => 'fas fa-address-card'
+      'iconClass' => 'fas fa-address-card',
+      'detailActionList' => [
+        0 => (object) [
+          'name' => 'findContacts',
+          'label' => 'Find Contacts',
+          'handler' => 'autocrm:handlers/lead/detail-actions',
+          'actionFunction' => 'findContacts',
+          'checkVisibilityFunction' => 'isFindContactsAvailable'
+        ]
+      ]
     ],
     'MassEmail' => (object) [
       'controller' => 'controllers/record',

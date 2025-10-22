@@ -5396,5 +5396,17 @@ Leave the field empty if you need to apply the exception only for specific users
     'nameOptions' => [
       'replyToEmail' => 'Reply to email'
     ]
+  ],
+  'Autocrm' => [
+    'Find Contacts' => 'Find Contacts',
+    'Find contacts with the same email address' => 'Find contacts with the same email address',
+    'No contacts found with the same email address' => 'No contacts found with the same email address',
+    'Contacts found' => 'Contacts found',
+    'Contact' => 'Contact',
+    'First Name' => 'First Name',
+    'Last Name' => 'Last Name',
+    'Email Address' => 'Email Address',
+    'Searching for contacts...' => 'Searching for contacts...',
+    'Error occurred while searching for contacts' => 'Error occurred while searching for contacts'
   ]
 ];

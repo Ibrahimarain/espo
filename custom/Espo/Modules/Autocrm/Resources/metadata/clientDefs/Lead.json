@@ -1,0 +1,17 @@
+{
+    "views": {
+        "detail": "autocrm:views/lead/record/detail"
+    },
+    "recordViews": {
+        "detail": "autocrm:views/lead/record/detail"
+    },
+    "detailActionList": [
+        {
+            "name": "findContacts",
+            "label": "Find Contacts",
+            "handler": "autocrm:handlers/lead/detail-actions",
+            "actionFunction": "findContacts",
+            "checkVisibilityFunction": "isFindContactsAvailable"
+        }
+    ]
+}

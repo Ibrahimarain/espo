@@ -80,7 +80,7 @@ return [
   'EmailQueueItem' => 'Espo\\Modules\\Crm\\Controllers\\EmailQueueItem',
   'KnowledgeBaseArticle' => 'Espo\\Modules\\Crm\\Controllers\\KnowledgeBaseArticle',
   'KnowledgeBaseCategory' => 'Espo\\Modules\\Crm\\Controllers\\KnowledgeBaseCategory',
-  'Lead' => 'Espo\\Modules\\Crm\\Controllers\\Lead',
+  'Lead' => 'Espo\\Modules\\Autocrm\\Controllers\\Lead',
   'MassEmail' => 'Espo\\Modules\\Crm\\Controllers\\MassEmail',
   'Meeting' => 'Espo\\Modules\\Crm\\Controllers\\Meeting',
   'Opportunity' => 'Espo\\Modules\\Crm\\Controllers\\Opportunity',

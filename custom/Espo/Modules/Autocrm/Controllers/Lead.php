@@ -27,7 +27,7 @@
  * these Appropriate Legal Notices must retain the display of the "EspoCRM" word.
  ************************************************************************/
 
-namespace Espo\Custom\Modules\Autocrm\Controllers;
+namespace Espo\Modules\Autocrm\Controllers;
 
 use Espo\Core\Controllers\Record;
 use Espo\Core\Exceptions\BadRequest;
