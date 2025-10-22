@@ -1,0 +1,2 @@
+[2025-10-22 14:15:31] ERROR: (0) Uncaught Exception RuntimeException: "Could not load 'moduleManager' service." at /Applications/MAMP/htdocs/espo/application/Espo/Core/Container.php line 353 :: /Applications/MAMP/htdocs/espo/application/Espo/Core/Container.php(353)
+[2025-10-22 14:25:20] WARNING: (404) Link does not exist. :: GET /Lead/68f8e24e6e2584dce/findContacts :: /Applications/MAMP/htdocs/espo/application/Espo/Core/Record/Service.php(1037)

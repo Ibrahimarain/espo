@@ -1,0 +1,7 @@
+[
+    {
+        "route": "/Lead/:id/findContacts",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Modules\\Autocrm\\Controllers\\Lead::postActionFindContacts"
+    }
+]
